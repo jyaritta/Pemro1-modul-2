@@ -17,7 +17,6 @@ int main() {
     p[strcspn(p, "\n")] = '\0';
 
     printf("Tempat/Tanggal Lahir  : ");
-
     fgets(TTL, sizeof(TTL), stdin);
     TTL[strcspn(TTL, "\n")] = '\0';
 
@@ -43,4 +42,5 @@ int main() {
     printf("Hobby                 : %s\n", hobi);
     printf("No. HP                : %s\n", no);
     return 0;
+
 }
