@@ -10,5 +10,4 @@ int main(){
     scanf("%f %f", &r, &t);
     printf("Volume = %.2f\nLuas = %.2f\nKeliling = %.2f\n", M_PI*r*r*t, (2*M_PI*r)*(r+t), 2*M_PI*r);
     return 0;
-
 }
