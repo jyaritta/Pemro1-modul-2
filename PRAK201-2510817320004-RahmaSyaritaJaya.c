@@ -32,8 +32,6 @@ int main() {
     fgets(no, sizeof(no), stdin);
     no[strcspn(no, "\n")] = '\0';
 
-        // output
-        
     printf("Nama                  : %s\n", nama);
     printf("NIM                   : %s\n", NIM);
     printf("Kelas Paralel         : %s\n", p);
